@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mehedi Hasan | Tech & Automation Specialist</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mehedi Hasan – Tech enthusiast, automation learner, and freelancing-focused digital problem solver." />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    :root {
+      --bg: radial-gradient(circle at top right, #1a3c34 0%, #0b1f1a 35%, #060b0a 70%, #000000 100%);
+      --card: rgba(22, 22, 22, 0.85);
+      --accent: #00ffcc;
+      --text: #ccecd0;
+      --muted: #a0a0a0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      background-attachment: fixed;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 120px 40px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    header img {
+      width: 190px;
+      border-radius: 48%;
+      border: 3.5px solid var(--accent);
+    }
+
+    header h1 {
+      margin: 60px 0 1px;
+      font-size: 40px;
+    }
+
+    header p {
+      color: var(--muted);
+      font-size: 20px;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 90px;
+    }
+
+    section h2 {
+      font-size: 26px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .card {
+      background: var(--card);
+      padding: 50px;
+      border-radius: 12px;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 0 25px rgba(0, 255, 204, 0.05);
+      transition: transform 0.2s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 190px rgba(81, 255, 220, 0.3);
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 29px;
+    }
+
+    .skills span {
+      padding: 10px 18px;
+      border: 2.5px solid var(--accent);
+      border-radius: 99px;
+      font-size: 14px;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .skills a:hover span {
+      background: var(--accent);
+      color: #030203;
+      cursor: pointer;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 40px;
+    }
+
+    .service h3 {
+      margin-top: 0;
+      color: var(--accent);
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- HERO -->
+    <header>
+      <img src="https://i.postimg.cc/Z9sq9qy3/Messenger-creation-E77F822E-D117-491E-8038-4D7500DEBEFE-Recovered.jpg" alt="Mehedi Hasan">
+      <h1>Mehedi Hasan</h1>
+      <p>
+        I'm Mehedi Hasan, a Computer Science & Technology student at Rajshahi Polytechnic Institute.
+        A Muslim, Bangladeshi, and a dreamer.
+      </p>
+    </header>
+
+    <!-- PERSONAL INFO -->
+    <section>
+      <h2>Personal Information</h2>
+      <div class="card skills">
+
+        <a href="https://rajshahi.polytech.gov.bd/" target="_blank"><span>Institution: Rajshahi Polytechnic Institute</span></a>
+
+        <a href="https://www.google.com/maps/place/Bangladesh" target="_blank"><span>Country: Bangladesh</span></a>
+
+        <a href="https://www.google.com/maps/place/Rajshahi" target="_blank"><span>Home Town: Rajshahi</span></a>
+
+        <a href="https://www.google.com/maps/search/Upor+Vodra" target="_blank"><span>Village: Upor Vodra</span></a>
+
+        <a href="tel:+8801300124952"><span>Phone: +8801300124952</span></a>
+
+        <a href="https://www.agraniruet.ac.bd/" target="_blank"><span>Ex School: Agrani School & College</span></a>
+
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section>
+      <h2>What I Can Help With</h2>
+      <div class="services">
+
+        <div class="card service">
+          <h3>Website Setup</h3>
+          <p>Clean personal websites, landing pages, and portfolio setups using modern HTML and best practices.</p>
+        </div>
+
+        <div class="card service">
+          <h3>Graphic Designing</h3>
+          <p>Flyers, posters, banners, and cards using Photoshop and Illustrator.</p>
+        </div>
+
+        <div class="card service">
+          <h3>Using AI Tools</h3>
+          <p>Create websites, apps, and simple games using AI tools.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact">
+      <h2>Contact</h2>
+      <div class="services">
+
+        <a class="card service" href="mailto:iamehedihsn@gmail.com">
+          <h3><i class="fa-solid fa-envelope"></i> Email</h3>
+          <p>iamehedihsn@gmail.com</p>
+        </a>
+
+        <a class="card service" href="https://wa.me/8801300124952" target="_blank">
+          <h3><i class="fa-brands fa-whatsapp"></i> WhatsApp</h3>
+          <p>Chat with me on WhatsApp</p>
+        </a>
+
+        <a class="card service" href="https://www.linkedin.com/in/iamehedihsn" target="_blank">
+          <h3><i class="fa-brands fa-linkedin"></i> LinkedIn</h3>
+          <p>Professional profile</p>
+        </a>
+
+        <a class="card service" href="https://www.facebook.com/MEHEDI.HASAN.ASC" target="_blank">
+          <h3><i class="fa-brands fa-facebook"></i> Facebook</h3>
+          <p>Connect on Facebook</p>
+        </a>
+
+      </div>
+    </section>
+
+    <footer>
+      © 2026 Mehedi Hasan — All rights reserved
+    </footer>
+
+  </div>
+</body>
+</html>
